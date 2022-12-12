@@ -1,6 +1,6 @@
 # Responsive Delivery landing page
 
-This is a practise of a Coffe Store Landing Page, based on the design made by [Bedimcode] (https://github.com/bedimcode).
+This is a practise of a Coffe Store Landing Page, based on the design made by [Bedimcode](https://github.com/bedimcode).
 
 ## Table of contents
 
@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://your-solution-url.com)
+- Solution URL: [https://github.com/juanardanaz/coffee-store](https://your-solution-url.com)
 - Live Site URL: [](https://your-live-site-url.com) 
 
 ## My process
