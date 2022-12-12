@@ -1,0 +1,105 @@
+/* ========= HEADER & NAV ========= */
+.header {
+    width: 100%;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+}
+
+.nav {
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &_toggle {
+        filter: invert(100%) sepia(0%) saturate(4605%) hue-rotate(104deg) brightness(101%) contrast(108%);
+        display: inline-flex;
+        font-size: 1.15rem;
+        cursor: pointer;
+    }
+
+    &_logo {
+        display: flex;
+        align-items: center;
+        column-gap: .5rem;
+        font-weight: var(--font-bold);
+        color: var(--card-color);
+    }
+
+    &-logo-image {
+        width: .75rem;
+    }
+
+    &_list {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        row-gap: 3rem;
+        padding-top: 9rem;
+    }
+
+    &_link {
+        text-transform: uppercase;
+        color: var(--text-color-light);
+        font-size: var(--h2-font-size);
+        transition: .3s;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    &_close {
+        font-size: 2rem;
+        filter: invert(100%) sepia(0%) saturate(4605%) hue-rotate(104deg) brightness(101%) contrast(108%);
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .nav {
+        &_menu {
+            position: fixed;
+            background-color: var(--black-color);
+            top: 0;
+            right: -100%;
+            width: 100%;
+            height: 100%;
+            transition: .3s;
+            z-index: 1;
+        }
+    }
+}
+
+/* Show menu */
+.show-menu {
+    right: 0;
+}
+
+/* Change background header */
+.scroll_header {
+    background-color: var(--body-color);
+    box-shadow: 0 1px 4px hsla(0, 4%, 15%, .1);
+}
+
+.scroll_header .nav-logo-image,
+.scroll_header .nav_toggle {
+    filter: invert(7%) sepia(21%) saturate(515%) hue-rotate(163deg) brightness(90%) contrast(88%);
+}
+
+.scroll_header .nav_logo {
+    color: var(--title-color);
+}
+
+.scroll_header .nav-logo-image {
+    mix-blend-mode: difference;
+}
+
+
+
