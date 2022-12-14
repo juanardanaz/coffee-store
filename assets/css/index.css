@@ -403,3 +403,88 @@ button {
 .active_product .products_title {
   color: var(--title-color);
 }
+
+/* ========= QUALITY ========= */
+.quality {
+  background-color: #fff;
+}
+.quality_content {
+  row-gap: 2.5rem;
+}
+.quality_images {
+  position: relative;
+  justify-self: center;
+}
+.quality_img-big, .quality_img-small {
+  border-radius: 0.5rem;
+}
+.quality_img-big {
+  width: 280px;
+}
+.quality_img-small {
+  width: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  transform: translateX(-5rem);
+}
+.quality_title, .quality_price {
+  font-size: var(--h1-font-size);
+}
+.quality_title {
+  margin-bottom: 0.75rem;
+}
+.quality_price {
+  margin-bottom: 0.25rem;
+}
+.quality_special {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: 0.75rem;
+}
+.quality_description {
+  margin-bottom: 2.5rem;
+}
+.quality_buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+.quality_button {
+  font-size: var(--normal-font-size);
+  text-transform: uppercase;
+  color: var(--title-color);
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.75rem;
+}
+.quality_button_img {
+  font-size: 1.25rem;
+  transition: 0.4s;
+}
+.quality_button_img:hover {
+  transform: translateX(0.25rem);
+}
+
+/* ========= LOGOS ========= */
+.logo {
+  background-color: #fff;
+}
+.logo_container {
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  gap: 2.5rem 2rem;
+  border-top: 1px solid var(--text-color-light);
+  padding-top: 2.5rem;
+}
+.logo_img {
+  width: 80px;
+  mix-blend-mode: luminosity;
+  opacity: 0.4;
+  transition: 0.4s;
+}
+.logo_img:hover {
+  opacity: 0.8;
+}

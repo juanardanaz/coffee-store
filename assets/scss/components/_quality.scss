@@ -1,0 +1,78 @@
+/* ========= QUALITY ========= */
+.quality {
+    background-color: #fff;
+
+    &_content {
+        row-gap: 2.5rem;
+    }
+
+    &_images {
+        position: relative;
+        justify-self: center;
+    }
+
+    &_img-big, 
+    &_img-small {
+        border-radius: .5rem;
+    }
+
+    &_img-big {
+        width: 280px;
+    }
+
+    &_img-small {
+        width: 100px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        transform: translateX(-5rem);
+    }
+
+    &_title,
+    &_price {
+        font-size: var(--h1-font-size);
+    }
+
+    &_title {
+        margin-bottom: .75rem;
+    }
+
+    &_price {
+        margin-bottom: .25rem;
+    }
+
+    &_special {
+        display: block;
+        font-size: var(--small-font-size);
+        margin-bottom: .75rem;
+    }
+
+    &_description {
+        margin-bottom: 2.5rem;
+    }
+
+    &_buttons {
+        display: flex;
+        align-items: center;
+        column-gap: 2rem;
+    }
+
+    &_button {
+        font-size: var(--normal-font-size);
+        text-transform: uppercase;
+        color: var(--title-color);
+        display: inline-flex;
+        align-items: center;
+        column-gap: .75rem;
+    }
+
+    &_button_img {
+        font-size: 1.25rem;
+        transition: .4s;
+
+        &:hover {
+            transform: translateX(.25rem);
+        }
+    }
+}
