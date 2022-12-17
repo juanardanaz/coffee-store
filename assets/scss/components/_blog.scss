@@ -1,0 +1,70 @@
+/* ========= BLOG ========= */
+.blog {
+    &_container {
+        padding-bottom: 2rem;
+    }
+
+    &_content {
+        row-gap: 3rem;
+    }
+
+    &_image {
+        position: relative;
+        margin-bottom: 1.5rem;
+    }
+
+    &_img {
+        border-radius: .5rem;
+    }
+
+    &_button {
+        display: inline-flex;
+        background-color: #fff;
+        padding: 1.15rem;
+        border-radius: .5rem 0 .5rem 0;
+        font-size: 2rem;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    &_button_img {
+        transform: rotate(-30deg);
+        transition: .4s;
+
+        &:hover {
+            transform: rotate(-30deg) translateX(.25rem);
+        }
+    }
+
+    &_title {
+        font-size: var(--h2-font-size);
+        margin-bottom: .75rem;
+    }
+
+    &_description {
+        margin-bottom: 1.5rem;
+    }
+
+    &_footer,
+    &_reaction {
+        display: flex;
+        align-items: center;
+    }
+
+    &_footer {
+        column-gap: 1.5rem;
+    }
+
+    &_reaction {
+        column-gap: .25rem;
+    }
+
+    &_reaction_img {
+        font-size: 1.25rem;
+    }
+
+    &_reaction_span {
+        font-size: var(--small-font-size);
+    }
+}
