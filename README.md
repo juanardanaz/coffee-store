@@ -1,4 +1,4 @@
-# Responsive Delivery landing page
+# Responsive Coffe Store Landing Page
 
 This is a practise of a Coffe Store Landing Page, based on the design made by [Bedimcode](https://github.com/bedimcode).
 
@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/juanardanaz/coffee-store](https://your-solution-url.com)
-- Live Site URL: [](https://your-live-site-url.com) 
+- Live Site URL: [https://juanardanaz.github.io/coffee-store/](https://your-live-site-url.com) 
 
 ## My process
 
